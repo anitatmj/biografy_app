@@ -1,0 +1,22 @@
+<ion-menu [content]="mainContent">
+  <ion-header class="headsidemenu">
+  <p class="p_header">Developer By Anita</p>
+  </ion-header>
+  <ion-content>
+  
+    <ion-list >
+      <ion-item color="positive" menuClose="" on-click="goToHome()">
+        <ion-icon name="md-home" item-left></ion-icon>
+        Biografy
+      </ion-item>
+      <ion-item color="family" menuClose="" on-click="goToFamilytreePage()">
+        Family Tree of Sultan Iskandar Muda
+        <ion-icon name="md-paper" item-left></ion-icon>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+
+
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>

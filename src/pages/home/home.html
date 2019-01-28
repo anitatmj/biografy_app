@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Biografy Sultan Iskandar Muda
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content no-padding>
+
+  <ion-card class="card1">
+    <ion-list>
+      <img src="assets/img/sultan.jpg" />
+      <p class="p1"><b>Sultan Iskandar Muda</b><br>
+      <b>Monday 12 RabiulAwal 999 H/Tuesday 27 Jan 1591</b><br>
+      <b>The Kingdom of Aceh Darussalam</b><br><b>1606 - 1636 M</b>
+      </p>
+    </ion-list>
+  </ion-card>
+
+   <ion-card no-padding class="cardmenu">
+    <button  class="buttonmenu" ion-button round full [navPush]="familytreepage">
+    Family Tree
+   </button>
+    </ion-card>
+</ion-content>
+
+
+  
