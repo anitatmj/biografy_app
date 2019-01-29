@@ -16,7 +16,6 @@ export class MyApp {
     platform.ready().then(() => {
       statusBar.styleDefault();
       splashScreen.hide();
-
     });
   }
 
@@ -29,5 +28,4 @@ goToFamilytreePage(params){
     if (!params) params = {};
     this.navCtrl.setRoot(FamilytreePage);
   }
-
 }
